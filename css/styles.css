@@ -142,6 +142,10 @@ nav > div {
   margin-top: 30px;
 }
 
+.btn-home:hover{
+  background-color: rgb(211, 128, 128);
+}
+
 .sec-musica{
   background-color: #c1d3df;
 }
