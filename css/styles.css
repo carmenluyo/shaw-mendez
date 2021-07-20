@@ -145,6 +145,12 @@ nav > div {
 .btn-home:hover{
   background-color: rgb(211, 128, 128);
 }
+.btn-inf-tour a:hover {
+  background-color: rgb(211, 128, 128);
+}
+.sec-gallery a:hover {
+ background-color: rgb(211, 128, 128); 
+}
 
 .sec-musica{
   background-color: #c1d3df;
