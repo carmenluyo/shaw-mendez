@@ -42,7 +42,9 @@ h3 {
 .b-gallery {
   background-image: url(../images/NINTCHDBPICT000582594623-8.jpg);
 }
-
+.b-formulario {
+    background-image: url(../images/ShawnMendes.jpg);
+}
 .b-musica {
   background-image: url(../images/02-Shawn-Mendes-MTPhoto05.jpg);
   background-repeat: no-repeat;
@@ -379,6 +381,7 @@ input.letratamaño {
 .des-cont-video span {
     font-size:14px;
 }
+
 /*página de artista*/
 .slider {
   max-width: 1000px;
@@ -1066,8 +1069,17 @@ h6 {
     border: 4px solid brown;
     border-radius: 15px;
 }
-
 /* == FORMULARIO == */
+
+.text-terminos-condiciones {
+  display: flex;
+  padding: 0px;
+  flex-wrap: nowrap;
+}
+.text-terminos-condiciones input {
+  width: auto;
+    margin-right: 5px;
+}
 .section_form {
     display: flex;
 }
@@ -1109,25 +1121,16 @@ legend {
   text-align: center;
 }
 input {
-  width: 85%;
+  width: 100%;
   padding: 1.5% 3.4%;
   margin: 1.5% 0;
-  border-right: none;
   border-radius: 5px;
 
 }
 input[type=text]:focus, input[type=password]:focus, input[type=email]:focus  {
   background: white;
 }
-input[type=radio], input[type=checkbox] {
-  float: left;
-  width: auto;
-  margin: 2% 0;
-}
 .right-input {
-  float: left;
-  width: auto;
-  margin: 1.5% 4% 1.5% 1.5%;
   font-weight: bold;
 }
 label {
@@ -1150,21 +1153,22 @@ textarea[placeholder] {
   font-family: 'Lato', sans-serif;
   font-size: 14px;
 }
-button {
-  padding: 13.5% 15.5%;
-  margin: 11% -4px;
-  background: brown;
-  color: black;
-  font-size: 18px;
-  font-weight: bold;
+.btn-form {
+  display: block;
   text-align: center;
-  border: none;
-  cursor: pointer;
+  background-color: #A52A2A;
+  width: 20%;
+  margin-left: 0;
   border-radius: 5px;
+  color: #ffff;
+  text-decoration: none;
+  padding: 7px 0;
+  font-size: 16px;
+  cursor: pointer;
+  border: 0px;
+  margin: 0 0 0 auto;
 }
-button:hover {
-  background: grey;
-}
+
 /*footer*/
 .footer-music {
     margin-top:40px;

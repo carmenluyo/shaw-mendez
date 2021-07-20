@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <header>
+     <header class="Header_Gallery">
         <a href="index.html"> <img src="images/logo-shawn.png" style="height: 8%;"></a>
         <nav>
             <div class="txt-nav">
@@ -16,7 +16,7 @@
                 <a href="Music.html">MÚSICA</a>
                 <a href="Tour.html">TOUR</a>
                 <a href="Gallery.html">GALERÍA</a>
-                <a href="Formulario.html" style=" color: #A52A2A;">FORMULARIO</a>
+                <a href="Formulario.html" style=" color: #A52A2A;">SUSCRIPCIÓN</a>
                 
             </div>
             <div class="ico-nav">
@@ -42,8 +42,8 @@
         </nav>
     </header>
     <section class="wrapper-banner">
-        <div class="banner b-artista"></div>
-        <h1>Suscripcion</h1>
+        <div class="banner b-formulario"></div>
+        <h1>SUSCRIPCIÓN</h1>
     </section>
     <main>
         <div class="section_form">
@@ -52,13 +52,13 @@
                 <fieldset>
                     <legend>SUSCRIBITE A NUESTRO NEWSLETTER</legend>
                     <label for="nombres" style="text-align: center">Enterate de las últimas noticias de Shawn Mendez</label>
-                    <input type="text" id="nombres" name="nombres" size="50" placeholder="Email address" required><p><button type="button" onclick="alert('Enviado')">Enviar</button></p>
+                    <input type="text" id="nombres" name="nombres" size="50" placeholder="Email address" required>
                 </fieldset>
-                <fieldset>
+                <fieldset class="text-terminos-condiciones">
                     <input type="checkbox" id="terminos" value="audi" name="aceptar">
                     <label for="terminos" class="right-input">Acepto los terminos y condiciones</label>
                 </fieldset>
-              
+                <button type="button" class="btn-form" onclick="alert('Enviado')">Enviar</button>
             </form>
     </div>
     </main>
