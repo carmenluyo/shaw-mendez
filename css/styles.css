@@ -381,9 +381,12 @@ input.letratamaño {
 }
 /*página de artista*/
 .slider {
-    max-width: 1000px;
-    margin: 0 auto;
-  }
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.slick-prev:before, .slick-next:before {
+  color: #A52A2A !important;
+}
   .slick-slide {
     margin: 0 5px;
   }
@@ -416,6 +419,7 @@ input.letratamaño {
     line-height: inherit;
     font-weight: bold;
   }
+
   .slider img {
     height: 324px;
   }
